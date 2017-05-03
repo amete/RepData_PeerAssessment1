@@ -194,8 +194,8 @@ our data, let's recall that:
 summary(input.data)
 ```
 
-As you can see all the missing data is for the steps column, i.e. there are 
-no missing date or interval. For the imputing, we're going to first add a 
+As you can see all the missing data is for the *steps* column, i.e. there are 
+no missing *date* or *interval*. For the imputing, we're going to first add a 
 fourth column to our dataset where we store the weekday information. Then,
 we're going to group our dataset according to *interval* and *day*, and replace
 the *steps* with the mean of steps for that given interval and day if the 
